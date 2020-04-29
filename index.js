@@ -1,6 +1,6 @@
 const mongoose = require('mongoose'); //import mongoose
 
-const Book = require('./models/booksJson.js'); //has our schema
+const Book = require('./booksJson.js'); //has our schema
 
 // creating the connection
 mongoose.connect('mongodb://localhost/books',{userNewUrlParser:true})
